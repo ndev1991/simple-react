@@ -1,0 +1,2 @@
+export const FETCH_USERS = 'USERS/FETCH_USERS';
+export const FETCH_POSTS = 'POSTS/FETCH_POSTS';
