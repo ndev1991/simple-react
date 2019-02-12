@@ -3,7 +3,9 @@ export default {
     persons: [] 
   },
   posts: {
-    posts: []
+    posts: [],
+    filteredPosts: [],
+    filterKeyword: ''
   },
   fuelSavings: {
     newMpg: '',

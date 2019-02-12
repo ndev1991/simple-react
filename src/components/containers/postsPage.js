@@ -12,11 +12,11 @@ export class PostsPage extends React.Component {
   }
 
   render() {
-    const { posts } = this.props.posts;
+    const { filteredPosts } = this.props.posts;
 
     return (
       <div>
-        {posts.map(post => <PostCard key={post.id} post={post} />)}
+        {filteredPosts.map(post => <PostCard key={post.id} post={post} />)}
       </div>
     );
   }

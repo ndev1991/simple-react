@@ -38,3 +38,10 @@ export function fetchPosts() {
     })
   }
 }
+
+export function changeSeachKeyword(keyword) {
+  return {
+    type: types.CHANGE_SEARCH_KEYWORD,
+    keyword
+  }
+}
